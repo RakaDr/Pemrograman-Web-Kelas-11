@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #1e90ff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    background-color: #F4F6F9;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    color: #1B2A4A;
+    margin-bottom: 10px;
+}
+
+.profil {
+    padding: 50px 8%;
+    text-align: center;
+}
+
+footer {
+    background-color: #1B2A4A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-utama {
+    display: inline-block;
+    margin-top: 15px;
+    padding :12px 24px;
+    background-color: #1e90ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-navbar{
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+
+}
